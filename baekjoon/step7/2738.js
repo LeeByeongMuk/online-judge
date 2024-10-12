@@ -1,13 +1,3 @@
-
-
-const input = `3 3
-1 1 1
-2 2 2
-0 1 0
-3 3 3
-4 4 4
-5 5 100`.split('\n');
-
 const fs = require('fs');
 const input = fs.readFileSync(0, 'utf-8').toString().trim().split('\n');
 
